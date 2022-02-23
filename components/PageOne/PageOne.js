@@ -5,7 +5,6 @@ function PageOne() {
       return (
             <div className="w-screen h-screen bg-darkerblueme">
                   <NavBar />
-                  <Body />
             </div>
       );
 }

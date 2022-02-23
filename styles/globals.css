@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+      .icon {
+            @apply w-4 h-4 my-4;
+      }
+      .firsticon {
+            @apply w-4 h-4 mt-4 mb-36;
+      }
+}
+
 html,
 body {
       padding: 0;
