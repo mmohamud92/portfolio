@@ -4,10 +4,10 @@
 
 @layer components {
       .icon {
-            @apply w-4 h-4 my-4;
+            @apply w-4 h-4 my-4 text-white transition-all duration-500 transform cursor-pointer hover:text-softorange hover:-translate-y-2;
       }
       .firsticon {
-            @apply w-4 h-4 mt-4 mb-36;
+            @apply w-4 h-4 mt-4 text-white transition-all duration-500 transform cursor-pointer mb-36 hover:text-softorange hover:-translate-y-2;
       }
 }
 

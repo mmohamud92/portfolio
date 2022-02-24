@@ -1,5 +1,9 @@
-const SideBarIcon = ({ icon }) => {
-      return <div className="icon">{icon}</div>;
+const SideBarIcon = ({ icon, href }) => {
+      return (
+            <a href={href} className="icon">
+                  {icon}
+            </a>
+      );
 };
 
 export default SideBarIcon;

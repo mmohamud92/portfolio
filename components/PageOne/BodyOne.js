@@ -1,13 +1,13 @@
 import Typewriter from "typewriter-effect";
 
-function Body() {
+function BodyOne() {
       return (
             <div className="flex flex-wrap content-center justify-center w-10/12 h-screen overflow-hidden">
                   <div className="overflow-hidden ">
                         <div>
                               <div className="flex flex-col content-center justify-center h-screen py-32">
                                     <div className="pb-5 text-xl text-softorange">
-                                          <h4>Hi, I'm</h4>
+                                          <h4>Hey, I'm</h4>
                                     </div>
                                     <div>
                                           <h2 className="text-6xl text-white ">
@@ -21,7 +21,7 @@ function Body() {
                                                 ) construction.
                                           </h2>
                                           <h5 className="text-xl text-white w-[50rem] max-w-fit">
-                                                A web developer trying to make
+                                                A web developer hoping to make
                                                 tech more accessible to those
                                                 from{" "}
                                                 <span className=" text-softorange">
@@ -38,4 +38,4 @@ function Body() {
       );
 }
 
-export default Body;
+export default BodyOne;
