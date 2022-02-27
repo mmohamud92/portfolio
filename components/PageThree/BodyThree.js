@@ -1,6 +1,4 @@
-import Typewriter from "typewriter-effect";
-
-function BodyOne() {
+function BodyThree() {
       return (
             <div className="flex flex-wrap content-center justify-center w-10/12 h-screen overflow-hidden">
                   <div className="overflow-hidden ">
@@ -38,4 +36,4 @@ function BodyOne() {
       );
 }
 
-export default BodyOne;
+export default BodyThree;
