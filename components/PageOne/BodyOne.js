@@ -2,34 +2,35 @@ import Typewriter from "typewriter-effect";
 
 function BodyOne() {
       return (
-            <div className="flex flex-wrap content-center justify-center w-10/12 h-screen overflow-hidden">
-                  <div className="overflow-hidden ">
-                        <div>
-                              <div className="flex flex-col content-center justify-center h-screen py-32">
-                                    <div className="pb-5 text-xl text-softorange">
-                                          <h4>Hey, I'm</h4>
-                                    </div>
-                                    <div>
-                                          <h2 className="text-6xl font-bold text-white ">
-                                                Mohamed Mohamud,
+            <div className="flex justify-center h-screen overflow-hidden">
+                  <div className="flex w-10/12 overflow-hidden ">
+                        <div className="flex items-center content-center h-screen">
+                              <div>
+                                    <div className="pt-6 pb-3">
+                                          <h2 className=" pb-6 md:text-7xl font-bold text-portblack text-[8vw]">
+                                                Hey! I'm Mohamed Mohamud
                                           </h2>
-                                          <h2 className="pb-5 text-6xl text-white">
-                                                I'm in (
-                                                <span className=" text-softorange">
-                                                      web
+                                          <div className="w-full py-1 border-t-4 border-portblue"></div>
+                                          <h2 className="pb-6 text-portblack text-[8vw] md:text-6xl font-semibold ">
+                                                I'm a
+                                                <span className=" text-portblue">
+                                                      {""} full stack {""}
                                                 </span>
-                                                ) construction.
+                                                developer.
                                           </h2>
-                                          <h5 className="text-xl text-white w-[50rem] max-w-fit">
-                                                A web developer hoping to make
-                                                tech more accessible to those
-                                                from{" "}
-                                                <span className=" text-softorange">
+                                          <p className="pt-5 md:text-2xl text-portblack text-[5vw] ">
+                                                A developer hoping to make tech
+                                                more{" "}
+                                                <span className="font-semibold text-portblue">
+                                                      accessible
+                                                </span>{" "}
+                                                to those from{" "}
+                                                <span className="font-semibold text-portblue">
                                                       disadvantaged
                                                 </span>{" "}
                                                 backgrounds. Currently looking
-                                                for work!
-                                          </h5>
+                                                for work.
+                                          </p>
                                     </div>
                               </div>
                         </div>

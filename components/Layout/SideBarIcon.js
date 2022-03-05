@@ -1,6 +1,6 @@
 const SideBarIcon = ({ icon, href }) => {
       return (
-            <a href={href} className="icon" target="_blank">
+            <a href={href} className="hidden icon md:block" target="_blank">
                   {icon}
             </a>
       );

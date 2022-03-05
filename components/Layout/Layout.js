@@ -11,6 +11,8 @@ import {
       FaGithub,
 } from "react-icons/fa";
 
+import { SiHashnode } from "react-icons/si";
+
 function LayOut({ Body }) {
       const [isMobile, setIsMobile] = useState(false);
       function showMenu(e) {
@@ -20,8 +22,8 @@ function LayOut({ Body }) {
 
       return (
             <div>
-                  <nav className="fixed z-10 w-screen bg-blueme">
-                        <div className="px-10 pt-6 mx-auto border border-red-300 ">
+                  <nav className="fixed z-10 w-screen bg-portwhite">
+                        <div className="px-10 pt-6 mx-auto ">
                               <div className="flex items-center justify-between">
                                     <div>
                                           <div className="flex items-center">
@@ -36,29 +38,32 @@ function LayOut({ Body }) {
                                                 </a>
                                           </div>
                                     </div>
-                                    <div className="items-center hidden space-x-24 text-white md:flex">
-                                          <a className="hover:text-softorange">
+                                    <div className="items-center hidden space-x-24 text-portblack md:flex">
+                                          <a className="cursor-pointer hover:text-portblue">
                                                 About
                                           </a>
-                                          <a className="hover:text-softorange">
+                                          <a className="cursor-pointer hover:text-portblue">
                                                 Projects
                                           </a>
-                                          <a className="hover:text-softorange">
+                                          <a className="cursor-pointer hover:text-portblue">
                                                 Contact
                                           </a>
                                     </div>
                                     <div>
-                                          <button className="items-center hidden px-4 py-1 space-x-16 text-white transition rounded shadow md:flex bg-softorange hover:bg-darkorange hover:text-gray-150 duration-400">
+                                          <a
+                                                href="Downloadables\Mohamed Mohamud CV.pdf"
+                                                className="items-center hidden px-4 py-1 space-x-16 transition rounded shadow text-portwhite md:flex bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400"
+                                          >
                                                 CV
-                                          </button>
+                                          </a>
                                           <div className="flex items-center md:hidden">
                                                 <button onClick={showMenu}>
                                                       <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             className="w-6 h-6"
-                                                            fill="#FD230C"
+                                                            fill="#007ea7"
                                                             viewBox="0 0 24 24"
-                                                            stroke="#FD230C"
+                                                            stroke="#007ea7"
                                                       >
                                                             <path
                                                                   strokeLinecap="round"
@@ -79,49 +84,97 @@ function LayOut({ Body }) {
                                           : "md:hidden pb-2"
                               }
                         >
-                              <a className="block px-4 py-2 text-sm text-white duration-500 transform cursor-pointer hover:bg-darkerblueme hover:text-softorange">
+                              <a className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue ">
                                     About
                               </a>
-                              <a className="block px-4 py-2 text-sm text-white duration-500 transform cursor-pointer hover:bg-darkerblueme hover:text-softorange">
+                              <a className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue">
                                     Projects
                               </a>
-                              <a className="block px-4 py-2 text-sm text-white duration-500 transform cursor-pointer hover:bg-darkerblueme hover:text-softorange">
+                              <a className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue">
                                     Contact
                               </a>
-                              <a className="items-center px-4 py-1 ml-4 space-x-16 text-sm text-white transition rounded shadow bg-softorange hover:bg-darkorange hover:text-gray-150 duration-400">
+                              <a
+                                    href="Downloadables\Mohamed Mohamud CV.pdf"
+                                    className="items-center px-4 py-1 ml-4 space-x-16 text-sm transition rounded shadow text-portblack bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400"
+                                    download
+                              >
                                     CV
                               </a>
                         </div>
                   </nav>
-                  <div className=" bg-darkerblueme">
-                        <div className="flex flex-wrap h-screen overflow-hidden">
-                              <div className="fixed left-0 flex flex-col items-center justify-end w-1/12 h-screen overflow-hidden md:visible">
+
+                  <div className=" bg-portwhite">
+                        <div className="h-screen overflow-hidden">
+                              <div className="fixed left-0 flex flex-col justify-end w-1/12 h-screen overflow-hidden">
+                                    <div className="text-2xl pt-96 text-portblue">
+                                          Yo
+                                    </div>
+                              </div>
+                              <div className="fixed right-0 flex flex-col items-center justify-end w-1/12 h-screen overflow-hidden">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
-                                          icon={<FaGithub size="20" />}
+                                          icon={
+                                                <FaGithub
+                                                      size="20"
+                                                      color=" #007ea7"
+                                                />
+                                          }
+                                    />
+                                    <SideBarIcon
+                                          href="https://mohamedmohamud.hashnode.dev/"
+                                          icon={
+                                                <SiHashnode
+                                                      size="20"
+                                                      color="#007ea7"
+                                                />
+                                          }
                                     />
                                     <SideBarIcon
                                           href="https://twitter.com/codewithmohamed"
-                                          icon={<FaTwitter size="20" />}
+                                          icon={
+                                                <FaTwitter
+                                                      size="20"
+                                                      color=" #007ea7"
+                                                />
+                                          }
                                     />
                                     <SideBarIcon
                                           href="https://www.instagram.com/codewithmohamed/"
-                                          icon={<FaInstagram size="20" />}
+                                          icon={
+                                                <FaInstagram
+                                                      size="20"
+                                                      color=" #007ea7"
+                                                />
+                                          }
                                     />
                                     <SideBarIcon
                                           href="https://www.linkedin.com/in/mohamed-mohamud-"
-                                          icon={<FaLinkedinIn size="20" />}
+                                          icon={
+                                                <FaLinkedinIn
+                                                      size="20"
+                                                      color=" #007ea7"
+                                                />
+                                          }
                                     />
                                     <a
                                           href="https://www.youtube.com/c/codewithmohamed"
                                           className="firsticon"
                                           target="_blank"
+                                          rel="noreferrer"
                                     >
-                                          {<FaYoutube size="20" />}
+                                          {
+                                                <FaYoutube
+                                                      size="20"
+                                                      color=" #007ea7"
+                                                />
+                                          }
                                     </a>
                               </div>
-                              <Body />
-                              <div className="fixed right-0 w-1/12 h-screen overflow-hidden"></div>
+                              <div className="flex justify-center ">
+                                    <div className="flex justify-center w-10/12 h-screen ">
+                                          <Body />
+                                    </div>
+                              </div>
                         </div>
                   </div>
             </div>
