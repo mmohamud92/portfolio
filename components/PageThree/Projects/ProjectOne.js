@@ -15,15 +15,18 @@ function ProjectOne() {
                   <Project
                         href={"https://bookwormsreading.netlify.app/"}
                         image={BookWorms}
-                        text="A group project where we created a
-                                          modern solution to an age-old problem.
-                                          Book Worms allows teachers to be able
-                                          to digitally monitor students' reading
-                                          habits. Teachers can view class and
-                                          (specific) student data Students can
-                                          add data on how much they've read and
-                                          also leave a comment on their most
-                                          recent reading."
+                        text=<div>
+                              <div>
+                                    A modern solution to an age-old problem.
+                                    Book Worms allows teachers to be able to
+                                    digitally monitor students' reading habits.
+                                    Teachers can view class and (specific)
+                                    student data Students can add data on how
+                                    much they've read and also leave a comment
+                                    on their most recent reading.
+                              </div>
+                              <div className="pt-5">[4-week Group Project]</div>
+                        </div>
                         techStack=<div className="flex justify-between w-[34rem]">
                               <Technologies
                                     technology="React"

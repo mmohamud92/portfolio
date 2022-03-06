@@ -19,7 +19,6 @@ const ProjectFlipped = ({ icon, techStack, text, image, href }) => {
                                           {text}
                                     </div>
                                     <div className="flex justify-center pt-4">
-                                          <h4>Technologies used:</h4>
                                     </div>
                                     <div>{techStack}</div>
                               </div>

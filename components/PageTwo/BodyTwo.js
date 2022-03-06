@@ -12,13 +12,13 @@ function BodyTwo() {
       return (
             <div className="flex justify-center h-screen overflow-hidden">
                   <div className="flex w-10/12 overflow-hidden ">
-                        <div className="flex h-screen md:pt-24">
+                        <div className="flex h-screen  md:pt-24">
                               <div>
-                                    <div className="pb-3 text-portblue text-[8vw] md:text-5xl font-semibold">
+                                    <div className="pb-3 text-portblue text-[7vw] md:text-5xl font-semibold">
                                           <div>About me</div>
                                     </div>
                                     <div className="pb-8 border-t-4 w-60 border-portblue"></div>
-                                    <div className="w-8/12  text-portblack text-[4vw] md:text-[1.075rem]">
+                                    <div className="w-9/12  text-portblack text-[2.375vw] md:text-[1.075rem]">
                                           <div className="pb-5 ">
                                                 <p>
                                                       {" "}
@@ -136,45 +136,31 @@ function BodyTwo() {
                                           <div className="flex justify-between">
                                                 <Technologies
                                                       technology="React"
-                                                      icon={
-                                                            <FaReact size="45" />
-                                                      }
+                                                      icon={<FaReact />}
                                                 />
                                                 <Technologies
                                                       technology="JavaScript"
-                                                      icon={
-                                                            <DiJavascript1 size="45" />
-                                                      }
+                                                      icon={<DiJavascript1 />}
                                                 />
                                                 <Technologies
                                                       technology="Node.js"
-                                                      icon={
-                                                            <FaNodeJs size="45" />
-                                                      }
+                                                      icon={<FaNodeJs />}
                                                 />
                                                 <Technologies
                                                       technology="Next.js"
-                                                      icon={
-                                                            <SiNextdotjs size="45" />
-                                                      }
+                                                      icon={<SiNextdotjs />}
                                                 />
                                                 <Technologies
                                                       technology="Jest"
-                                                      icon={
-                                                            <SiJest size="45" />
-                                                      }
+                                                      icon={<SiJest />}
                                                 />
                                                 <Technologies
                                                       technology="TypeScript"
-                                                      icon={
-                                                            <SiTypescript size="45" />
-                                                      }
+                                                      icon={<SiTypescript />}
                                                 />
                                                 <Technologies
                                                       technology="PostgreSQL"
-                                                      icon={
-                                                            <SiPostgresql size="45" />
-                                                      }
+                                                      icon={<SiPostgresql />}
                                                 />
                                           </div>
                                     </div>

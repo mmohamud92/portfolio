@@ -123,7 +123,7 @@ function LayOut({ Body }) {
                                     />
                                     <SideBarIcon
                                           href="https://www.instagram.com/codewithmohamed/"
-                                          icon={<AiFillInstagram size="21" />}
+                                          icon={<FaInstagram size="20" />}
                                     />
                                     <SideBarIcon
                                           href="https://www.linkedin.com/in/mohamed-mohamud-"

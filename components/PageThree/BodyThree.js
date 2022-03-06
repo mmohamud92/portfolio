@@ -2,6 +2,7 @@ import Projects from "./Projects/Project";
 import ProjectOne from "./Projects/ProjectOne";
 import ProjectTwo from "./Projects/ProjectTwo";
 import ProjectThree from "./Projects/ProjectThree";
+import ProjectFour from "./Projects/ProjectFour";
 import Technologies from "../PageTwo/Technologies";
 import {
       SiNextdotjs,
@@ -27,6 +28,7 @@ function BodyThree() {
                                           <ProjectOne />
                                           <ProjectTwo />
                                           <ProjectThree />
+                                          <ProjectFour />
                                     </div>
                               </div>
                         </div>
