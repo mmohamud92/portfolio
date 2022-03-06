@@ -12,7 +12,7 @@ function BodyOne() {
                                           </h2>
                                           <div className="w-full py-1 border-t-4 border-portblue"></div>
                                           <h2 className="pb-6 text-portblack text-[8vw] md:text-6xl font-semibold ">
-                                                I'm a
+                                                A
                                                 <span className=" text-portblue">
                                                       {""} full stack {""}
                                                 </span>

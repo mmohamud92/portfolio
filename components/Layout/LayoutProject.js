@@ -15,7 +15,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 import { SiHashnode } from "react-icons/si";
 
-function LayOut({ Body }) {
+function LayOutProject({ Body }) {
       const [isMobile, setIsMobile] = useState(false);
       function showMenu(e) {
             e.preventDefault();
@@ -106,9 +106,9 @@ function LayOut({ Body }) {
                   </nav>
 
                   <div className=" bg-portwhite">
-                        <div className="h-screen overflow-hidden">
-                              <div className="fixed left-0 flex flex-col justify-end w-1/12 h-screen overflow-hidden"></div>
-                              <div className="fixed right-0 flex flex-col items-center justify-end w-1/12 h-screen overflow-hidden">
+                        <div className="h-auto overflow-hidden">
+                              <div className="fixed left-0 flex flex-col justify-end w-1/12 h-auto overflow-hidden"></div>
+                              <div className="fixed right-0 flex flex-col items-center justify-end w-1/12 h-auto overflow-hidden">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
                                           icon={<FaGithub size="20" />}
@@ -144,7 +144,7 @@ function LayOut({ Body }) {
                                     </a>
                               </div>
                               <div className="flex justify-center ">
-                                    <div className="flex justify-center w-10/12 h-screen ">
+                                    <div className="flex justify-center w-10/12 h-auto ">
                                           <Body />
                                     </div>
                               </div>
@@ -154,4 +154,4 @@ function LayOut({ Body }) {
       );
 }
 
-export default LayOut;
+export default LayOutProject;

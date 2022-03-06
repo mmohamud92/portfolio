@@ -4,7 +4,11 @@ module.exports = {
             "./components/**/*.{js,ts,jsx,tsx}",
       ],
       theme: {
+            fontFamily: {
+                  code: ['"Courier Prime"', "normal"],
+            },
             extend: {},
+
             colors: {
                   blueme: "#2F2FA2",
                   darkerblueme: "#122850",

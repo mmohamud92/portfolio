@@ -1,8 +1,8 @@
-import LayOut from "../Layout/Layout";
+import LayOutProject from "../Layout/LayoutProject";
 import BodyThree from "./BodyThree";
 
 function PageThree() {
-      return <LayOut Body={BodyThree} />;
+      return <LayOutProject Body={BodyThree} />;
 }
 
 export default PageThree;
