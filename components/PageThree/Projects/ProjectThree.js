@@ -1,34 +1,34 @@
 import Project from "./Project";
-import Technologies from "../../PageTwo/Technologies";
+import Technologies from "./Technologies";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import Portfolio from "../../../images/projects/Portfolio.png";
 
 function ProjectThree() {
       return (
-            <div className="pt-16 ">
+            <div className="lg:pt-16 flex justify-center pt-[2vh] ">
                   <Project
                         image={Portfolio}
-                        text=<div>
+                        text=<div className="text-portwhite font-bold lg:font-normal">
                               <div>
                                     You're already here! My personal portfolio.
                               </div>
-                              <div className="pt-5 ">
+                              <div className="pt-5 font-bold lg:font-normal">
                                     [Individual Project - obviously!]
                               </div>
                         </div>
-                        techStack=<div className="flex justify-between w-[34rem]">
+                        techStack=<div className="flex justify-between  lg:w-[35.416666666666664vw]">
                               <Technologies
                                     technology="React"
-                                    icon={<FaReact size="45" />}
+                                    icon={<FaReact />}
                               />
                               <Technologies
                                     technology="Next.js"
-                                    icon={<SiNextdotjs size="45" />}
+                                    icon={<SiNextdotjs />}
                               />
                               <Technologies
                                     technology="Tailwind CSS"
-                                    icon={<SiTailwindcss size="45" />}
+                                    icon={<SiTailwindcss />}
                               />
                         </div>
                   />

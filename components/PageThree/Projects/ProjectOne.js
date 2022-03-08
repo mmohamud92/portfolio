@@ -1,5 +1,5 @@
 import Project from "./Project";
-import Technologies from "../../PageTwo/Technologies";
+import Technologies from "./Technologies";
 import {
       SiNextdotjs,
       SiJest,
@@ -11,12 +11,12 @@ import BookWorms from "../../../images/projects/BookWorms.png";
 
 function ProjectOne() {
       return (
-            <div className="pt-16 ">
+            <div className="lg:pt-16 flex justify-center pt-[0.5vh] ">
                   <Project
                         href={"https://bookwormsreading.netlify.app/"}
                         image={BookWorms}
                         text=<div>
-                              <div>
+                              <div className="text-portwhite font-bold lg:font-normal">
                                     A modern solution to an age-old problem.
                                     Book Worms allows teachers to be able to
                                     digitally monitor students' reading habits.
@@ -25,28 +25,30 @@ function ProjectOne() {
                                     much they've read and also leave a comment
                                     on their most recent reading.
                               </div>
-                              <div className="pt-5">[4-week Group Project]</div>
+                              <div className="text-portwhite font-bold lg:font-normal">
+                                    [4-week Group Project]
+                              </div>
                         </div>
-                        techStack=<div className="flex justify-between w-[34rem]">
+                        techStack=<div className="flex justify-between  lg:w-[35.416666666666664vw]">
                               <Technologies
                                     technology="React"
-                                    icon={<FaReact size="45" />}
+                                    icon={<FaReact />}
                               />
                               <Technologies
                                     technology="Node.js"
-                                    icon={<FaNodeJs size="45" />}
+                                    icon={<FaNodeJs />}
                               />
                               <Technologies
                                     technology="Next.js"
-                                    icon={<SiNextdotjs size="45" />}
+                                    icon={<SiNextdotjs />}
                               />
                               <Technologies
                                     technology="PostgreSQL"
-                                    icon={<SiPostgresql size="45" />}
+                                    icon={<SiPostgresql />}
                               />
                               <Technologies
                                     technology="Jest"
-                                    icon={<SiJest size="45" />}
+                                    icon={<SiJest />}
                               />
                         </div>
                   />

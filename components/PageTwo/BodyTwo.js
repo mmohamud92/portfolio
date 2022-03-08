@@ -1,4 +1,6 @@
-import { usestate } from "react";
+import { SvgBlob } from "react-svg-blob";
+import { cross as crossPattern } from "react-svg-blob/dist/lib/patterns";
+import Selfie from "../../images/Selfie.png";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import {
@@ -8,17 +10,18 @@ import {
       SiPostgresql,
 } from "react-icons/si";
 import Technologies from "./Technologies";
+import Image from "next/image";
 function BodyTwo() {
       return (
-            <div className="flex justify-center h-screen overflow-hidden">
-                  <div className="flex w-10/12 overflow-hidden ">
+            <div className="flex justify-center items-center content-center h-screen overflow-hidden">
+                  <div className="flex w-9/12 overflow-hidden ">
                         <div className="flex h-screen  md:pt-24">
-                              <div>
+                              <div className=" pl-[5vw] md:pl-0 ">
                                     <div className="pb-3 text-portblue text-[7vw] md:text-5xl font-semibold">
                                           <div>About me</div>
                                     </div>
-                                    <div className="pb-8 border-t-4 w-60 border-portblue"></div>
-                                    <div className="w-9/12  text-portblack text-[2.375vw] md:text-[1.075rem]">
+                                    <div className="pb-8 border-t-4 w-[35vw] md:w-60 border-portblue"></div>
+                                    <div className="w-9/12  text-portblack md:text-[1.075rem] sm:text-[2.1vw] text-[2.6vw]">
                                           <div className="pb-5 ">
                                                 <p>
                                                       {" "}
@@ -164,6 +167,14 @@ function BodyTwo() {
                                                 />
                                           </div>
                                     </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div className="flex w-3/12 items-center justify-center ">
+                        <div className="flex justify-center">
+                              <div className=" lg:max-w-[100%] h-auto md:w-[21vw] w-[30vw] -translate-x-7">
+                                    <Image src={Selfie} />
                               </div>
                         </div>
                   </div>

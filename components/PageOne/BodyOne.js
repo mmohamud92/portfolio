@@ -7,7 +7,7 @@ function BodyOne() {
                         <div className="flex items-center content-center h-screen">
                               <div>
                                     <div className="pb-3 md:pt-6">
-                                          <h2 className=" pb-6 md:text-7xl font-bold text-portblack text-[8vw]">
+                                          <h2 className=" pb-2 md:pb-6 md:text-7xl font-bold text-portblack text-[7vw]">
                                                 Hey! I'm Mohamed Mohamud
                                           </h2>
                                           <div className="w-full py-1 border-t-4 border-portblue"></div>

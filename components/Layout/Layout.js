@@ -107,8 +107,8 @@ function LayOut({ Body }) {
 
                   <div className=" bg-portwhite">
                         <div className="h-screen overflow-hidden">
-                              <div className="fixed left-0 flex flex-col justify-end w-1/12 h-screen overflow-hidden"></div>
-                              <div className="fixed right-0 flex flex-col items-center justify-end w-1/12 h-screen overflow-hidden">
+                              <div className="md:fixed md:left-0 md:flex md:flex-col md:justify-end md:w-1/12 md:h-screen md:overflow-hidden md:visible hidden"></div>
+                              <div className="md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-screen md:overflow-hidden hidden md:visible">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
                                           icon={<FaGithub size="20" />}
@@ -144,7 +144,7 @@ function LayOut({ Body }) {
                                     </a>
                               </div>
                               <div className="flex justify-center ">
-                                    <div className="flex justify-center w-10/12 h-screen ">
+                                    <div className="flex justify-center w-[100%] md:w-10/12 h-screen ">
                                           <Body />
                                     </div>
                               </div>
