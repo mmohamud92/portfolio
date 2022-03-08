@@ -53,8 +53,9 @@ function LayOut({ Body }) {
                                     </div>
                                     <div>
                                           <a
-                                                href="Downloadables\Mohamed Mohamud CV.pdf"
+                                                href="/files/MohamedMohamudCV.pdf"
                                                 className="items-center hidden px-4 py-1 space-x-16 transition rounded shadow text-portwhite md:flex bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400"
+                                                download
                                           >
                                                 CV
                                           </a>
@@ -96,7 +97,7 @@ function LayOut({ Body }) {
                                     Contact
                               </a>
                               <a
-                                    href="Downloadables\Mohamed Mohamud CV.pdf"
+                                    href="/files/MohamedMohamudCV.pdf"
                                     className="items-center px-4 py-1 ml-4 space-x-16 text-sm transition rounded shadow text-portblack bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400"
                                     download
                               >
@@ -107,8 +108,8 @@ function LayOut({ Body }) {
 
                   <div className=" bg-portwhite">
                         <div className="h-screen overflow-hidden">
-                              <div className="md:fixed md:left-0 md:flex md:flex-col md:justify-end md:w-1/12 md:h-screen md:overflow-hidden md:visible hidden"></div>
-                              <div className="md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-screen md:overflow-hidden hidden md:visible">
+                              <div className="hidden md:fixed md:left-0 md:flex md:flex-col md:justify-end md:w-1/12 md:h-screen md:overflow-hidden md:visible"></div>
+                              <div className="hidden md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-screen md:overflow-hidden md:visible">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
                                           icon={<FaGithub size="20" />}
