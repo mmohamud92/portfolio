@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import PageOne from "../components/PageOne/PageOne";
 import PageTwo from "../components/PageTwo/PageTwo";
 import PageThree from "../components/PageThree/PageThree";
+import PageFour from "../components/PageFour/PageFour";
 
 export default function Home() {
       return (
@@ -11,6 +12,7 @@ export default function Home() {
                   <PageOne />
                   <PageTwo />
                   <PageThree />
+                  <PageFour />
             </div>
       );
 }

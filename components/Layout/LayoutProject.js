@@ -107,8 +107,8 @@ function LayOutProject({ Body }) {
 
                   <div className=" bg-portwhite">
                         <div className="h-auto overflow-hidden">
-                              <div className="md:fixed md:left-0 md:flex md:flex-col md:justify-end md:w-1/12 md:h-auto md:overflow-hidden md:visible hidden"></div>
-                              <div className="md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-auto md:overflow-hidden md:visible hidden">
+                              <div className="hidden md:fixed md:left-0 md:flex md:flex-col md:justify-end md:w-1/12 md:h-auto md:overflow-hidden md:visible"></div>
+                              <div className="hidden md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-auto md:overflow-hidden md:visible">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
                                           icon={<FaGithub size="20" />}
@@ -143,7 +143,7 @@ function LayOutProject({ Body }) {
                                           }
                                     </a>
                               </div>
-                              <div className="flex justify-center content-center ">
+                              <div className="flex content-center justify-center ">
                                     <div className="flex w-[100%] md:w-10/12 h-auto justify-center">
                                           <Body />
                                     </div>

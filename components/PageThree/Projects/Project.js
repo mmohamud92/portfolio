@@ -2,23 +2,23 @@ import Image from "next/image";
 const Project = ({ icon, techStack, text, image, href }) => {
       return (
             <div>
-                  <div className="flex lg:items-center lg:justify-center h-auto rounded ">
-                        <div className=" lg:flex lg:items-center ">
+                  <div className="flex h-auto rounded lg:items-center lg:justify-center ">
+                        <div className=" lg:flex lg:items-center">
                               <div className="flex overflow-hidden lg:-translate-y-[2vh]">
                                     <a
-                                          className=" "
+                                          className=""
                                           href={href ? href : "#"}
                                           target={href ? "_blank" : ""}
                                           rel="noreferrer"
                                     >
-                                          <div className=" flex justify-center items-center w-[68vw] lg:w-[31vw] lg:h-[39.47479224376731vh] ">
-                                                <div className=" absolute z-10 text-justify lg:hidden text-[1.8vw] w-[40vw] hover:hidden ">
+                                          <div className="  flex justify-center items-center w-[68vw] lg:w-[31vw] lg:h-[39.47479224376731vh] ">
+                                                <div className=" absolute z-10 text-justify lg:hidden text-[1.8vw] w-[40vw] opacity-100 hover:hidden hideit-hover:opacity-0 ">
                                                       {text}
                                                 </div>
-                                                <div className=" flex">
+                                                <div className="flex ">
                                                       <Image
-                                                            className=" filter 
-                                           brightness-50 hover:brightness-110 transition-all duration-200 w-[31vw] h-[39.47479224376731vh] rounded-lg  "
+                                                            className="hideit filter 
+                                           brightness-50 hover:brightness-110 hover: transition-all duration-200 w-[31vw] h-[39.47479224376731vh] rounded-lg  "
                                                             src={image}
                                                       />
                                                 </div>
