@@ -18,7 +18,7 @@ function BodyOne() {
                                                 </span>
                                                 developer.
                                           </h2>
-                                          <p className="pt-5 md:text-2xl text-portblack text-[4.5vw] ">
+                                          <p className="pt-5 md:text-2xl text-portblack text-[4.5vw] md:w-10/12 ">
                                                 A developer hoping to make tech
                                                 more{" "}
                                                 <span className="font-semibold text-portblue">
@@ -29,7 +29,10 @@ function BodyOne() {
                                                       disadvantaged
                                                 </span>{" "}
                                                 backgrounds. Currently looking
-                                                for work.
+                                                for{" "}
+                                                <span className="font-semibold text-portblue">
+                                                      new opportunities!
+                                                </span>{" "}
                                           </p>
                                     </div>
                               </div>

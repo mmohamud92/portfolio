@@ -86,8 +86,12 @@ function BodyTwo() {
                                                       </span>{" "}
                                                       currently is to find a
                                                       suitable role for me,
-                                                      (preferably front-end
-                                                      related). My{" "}
+                                                      where I can grow and
+                                                      <span className="font-semibold text-portblue">
+                                                            {" "}
+                                                            develop{" "}
+                                                      </span>{" "}
+                                                      my skills. My{" "}
                                                       <span className="font-semibold text-portblue">
                                                             {" "}
                                                             secondary{" "}
