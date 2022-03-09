@@ -2,7 +2,11 @@ import LayOut from "../Layout/Layout";
 import BodyOne from "./BodyOne";
 
 function PageOne() {
-      return <LayOut Body={BodyOne} />;
+      return (
+            <div id="home">
+                  <LayOut Body={BodyOne} />
+            </div>
+      );
 }
 
 export default PageOne;

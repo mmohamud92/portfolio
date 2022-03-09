@@ -30,15 +30,21 @@ function LayOut({ Body }) {
                               <div className="flex items-center justify-between">
                                     <div>
                                           <div className="flex items-center">
-                                                <a href="#">
+                                                <Link
+                                                      to="home"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={15}
+                                                      duration={500}
+                                                >
                                                       <Image
                                                             src={Logo}
                                                             alt="logo"
                                                             height={50}
                                                             width={50}
-                                                            className="transition duration-300 "
+                                                            className="transition duration-300 cursor-pointer "
                                                       />
-                                                </a>
+                                                </Link>
                                           </div>
                                     </div>
                                     <div className="items-center hidden space-x-24 text-portblack md:flex">

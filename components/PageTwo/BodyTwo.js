@@ -13,8 +13,8 @@ import Technologies from "./Technologies";
 import Image from "next/image";
 function BodyTwo() {
       return (
-            <div className="flex items-center content-center justify-center h-auto lg:overflow-hidden">
-                  <div className="flex w-9/12 lg:overflow-hidden ">
+            <div className="flex items-center content-center justify-center h-auto">
+                  <div className="flex w-9/12 ">
                         <div className="flex h-auto md:pt-24">
                               <div className=" pl-[5vw] md:pl-0 ">
                                     <div className="pb-3 text-portblue text-[7vw] md:text-5xl font-semibold">
@@ -136,7 +136,7 @@ function BodyTwo() {
                                                       I've been working with:
                                                 </p>
                                           </div>
-                                          <div className="flex justify-between w-[160%] ">
+                                          <div className="flex justify-between w-[160%] lg:w-[120%] ">
                                                 <Technologies
                                                       technology="React"
                                                       icon={<FaReact />}
