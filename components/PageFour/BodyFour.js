@@ -29,8 +29,11 @@ function BodyFour() {
                                                 </div>
                                           </div>
                                     </div>
-                                    <div className=" py-[2vh] px-[4vw] space-x-16 text-[4vw] md:text-xl transition rounded shadow md:py-3 md:px-7 text-portwhite bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400">
-                                          <a href="mailto:m.mohamud1992@gmail.com">
+                                    <div>
+                                          <a
+                                                className=" py-[2vh] px-[4vw] space-x-16 text-[4vw] md:text-xl transition rounded shadow md:py-3 md:px-7 text-portwhite bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400 cursor-pointer"
+                                                href="mailto:m.mohamud1992@gmail.com"
+                                          >
                                                 Say Hi!
                                           </a>
                                     </div>
