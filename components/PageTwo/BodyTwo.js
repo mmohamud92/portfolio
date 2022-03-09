@@ -13,8 +13,8 @@ import Technologies from "./Technologies";
 import Image from "next/image";
 function BodyTwo() {
       return (
-            <div className="flex items-center content-center justify-center h-auto overflow-hidden">
-                  <div className="flex w-9/12 overflow-hidden ">
+            <div className="flex items-center content-center justify-center h-auto lg:overflow-hidden">
+                  <div className="flex w-9/12 lg:overflow-hidden ">
                         <div className="flex h-auto md:pt-24">
                               <div className=" pl-[5vw] md:pl-0 ">
                                     <div className="pb-3 text-portblue text-[7vw] md:text-5xl font-semibold">
@@ -78,7 +78,7 @@ function BodyTwo() {
                                                 </p>
                                           </div>
                                           <div>
-                                                <p className="pb-5 ">
+                                                <p className="pb-5 w-[160%] sm:w-[100%]">
                                                       My{" "}
                                                       <span className="font-semibold text-portblue">
                                                             {" "}
@@ -126,7 +126,7 @@ function BodyTwo() {
                                                       </span>{" "}
                                                 </p>
                                           </div>
-                                          <div className="pb-5 ">
+                                          <div className="pb-5 w-[160%] sm:w-[100%]">
                                                 <p>
                                                       Some of the{" "}
                                                       <span className="font-semibold text-portblue">
@@ -136,7 +136,7 @@ function BodyTwo() {
                                                       I've been working with:
                                                 </p>
                                           </div>
-                                          <div className="flex justify-between">
+                                          <div className="flex justify-between w-[160%] ">
                                                 <Technologies
                                                       technology="React"
                                                       icon={<FaReact />}
@@ -173,7 +173,7 @@ function BodyTwo() {
 
                   <div className="flex items-center justify-center w-3/12 ">
                         <div className="flex justify-center">
-                              <div className=" lg:max-w-[100%] h-auto md:w-[21vw] w-[40vw] -translate-x-8">
+                              <div className=" lg:max-w-[100%] h-auto md:w-[21vw] w-[40vw] -translate-x-8 -translate-y-[4.5rem] lg:translate-y-0">
                                     <Image src={Selfie} />
                               </div>
                         </div>
