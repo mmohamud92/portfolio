@@ -10,7 +10,7 @@ export default function Home() {
       return (
             <div>
                   <PageOne />
-                  <PageTwo />
+                  <PageTwo id="about" />
                   <PageThree />
                   <PageFour />
             </div>

@@ -2,7 +2,11 @@ import LayOut from "../Layout/Layout";
 import BodyTwo from "./BodyTwo";
 
 function PageTwo() {
-      return <LayOut Body={BodyTwo} />;
+      return (
+            <div id="about">
+                  <LayOut Body={BodyTwo} />
+            </div>
+      );
 }
 
 export default PageTwo;

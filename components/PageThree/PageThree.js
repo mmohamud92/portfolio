@@ -2,7 +2,11 @@ import LayOutProject from "../Layout/LayoutProject";
 import BodyThree from "./BodyThree";
 
 function PageThree() {
-      return <LayOutProject Body={BodyThree} />;
+      return (
+            <div id="projects">
+                  <LayOutProject Body={BodyThree} />
+            </div>
+      );
 }
 
 export default PageThree;

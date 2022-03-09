@@ -13,9 +13,9 @@ import Technologies from "./Technologies";
 import Image from "next/image";
 function BodyTwo() {
       return (
-            <div className="flex items-center content-center justify-center h-screen overflow-hidden">
+            <div className="flex items-center content-center justify-center h-auto overflow-hidden">
                   <div className="flex w-9/12 overflow-hidden ">
-                        <div className="flex h-screen md:pt-24">
+                        <div className="flex h-auto md:pt-24">
                               <div className=" pl-[5vw] md:pl-0 ">
                                     <div className="pb-3 text-portblue text-[7vw] md:text-5xl font-semibold">
                                           <div>About me</div>
@@ -173,7 +173,7 @@ function BodyTwo() {
 
                   <div className="flex items-center justify-center w-3/12 ">
                         <div className="flex justify-center">
-                              <div className=" lg:max-w-[100%] h-auto md:w-[21vw] w-[30vw] -translate-x-7">
+                              <div className=" lg:max-w-[100%] h-auto md:w-[21vw] w-[40vw] -translate-x-8">
                                     <Image src={Selfie} />
                               </div>
                         </div>

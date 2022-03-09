@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../images/logo.svg";
+import { Link } from "react-scroll";
 import Image from "next/image";
 import { useState } from "react";
 import SideBarIcon from "./SideBarIcon";
@@ -41,15 +42,36 @@ function LayOut({ Body }) {
                                           </div>
                                     </div>
                                     <div className="items-center hidden space-x-24 text-portblack md:flex">
-                                          <a className="cursor-pointer hover:text-portblue">
+                                          <Link
+                                                className="cursor-pointer hover:text-portblue"
+                                                to="about"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={15}
+                                                duration={500}
+                                          >
                                                 About
-                                          </a>
-                                          <a className="cursor-pointer hover:text-portblue">
+                                          </Link>
+                                          <Link
+                                                className="cursor-pointer hover:text-portblue"
+                                                to="projects"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={15}
+                                                duration={500}
+                                          >
                                                 Projects
-                                          </a>
-                                          <a className="cursor-pointer hover:text-portblue">
+                                          </Link>
+                                          <Link
+                                                className="cursor-pointer hover:text-portblue"
+                                                to="contact"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={50}
+                                                duration={500}
+                                          >
                                                 Contact
-                                          </a>
+                                          </Link>
                                     </div>
                                     <div>
                                           <a
@@ -87,15 +109,36 @@ function LayOut({ Body }) {
                                           : "md:hidden pb-2"
                               }
                         >
-                              <a className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue ">
+                              <Link
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-210}
+                                    duration={500}
+                                    className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue "
+                              >
                                     About
-                              </a>
-                              <a className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue">
+                              </Link>
+                              <Link
+                                    to="projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-210}
+                                    duration={500}
+                                    className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue"
+                              >
                                     Projects
-                              </a>
-                              <a className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue">
+                              </Link>
+                              <Link
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue"
+                              >
                                     Contact
-                              </a>
+                              </Link>
                               <a
                                     href="/files/MohamedMohamudCV.pdf"
                                     className="items-center px-4 py-1 ml-4 space-x-16 text-sm transition rounded shadow text-portblack bg-portblue hover:bg-portdarkerblue hover:text-gray-150 duration-400"
