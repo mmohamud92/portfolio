@@ -113,7 +113,7 @@ function LayOut({ Body }) {
                                     to="about"
                                     spy={true}
                                     smooth={true}
-                                    offset={-210}
+                                    offset={-85}
                                     duration={500}
                                     className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue "
                               >
@@ -123,7 +123,7 @@ function LayOut({ Body }) {
                                     to="projects"
                                     spy={true}
                                     smooth={true}
-                                    offset={-210}
+                                    offset={-230}
                                     duration={500}
                                     className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue"
                               >
@@ -133,7 +133,7 @@ function LayOut({ Body }) {
                                     to="contact"
                                     spy={true}
                                     smooth={true}
-                                    offset={50}
+                                    offset={30}
                                     duration={500}
                                     className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue"
                               >
