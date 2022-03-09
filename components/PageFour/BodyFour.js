@@ -18,8 +18,8 @@ function BodyFour() {
                                                                   opportunities
                                                             </span>{" "}
                                                             and would love to
-                                                            hear more from you!
-                                                            Don't hesitate to
+                                                            hear more from you -
+                                                            don't hesitate to
                                                             get in{" "}
                                                             <span className="font-semibold text-portblue">
                                                                   contact
