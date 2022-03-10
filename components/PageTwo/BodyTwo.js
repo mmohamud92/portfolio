@@ -15,7 +15,7 @@ function BodyTwo() {
       return (
             <div className="flex items-center content-center justify-center h-auto">
                   <div className="flex w-9/12 ">
-                        <div className="flex h-auto md:pt-24">
+                        <div className="flex h-auto">
                               <div className=" pl-[5vw] md:pl-0 ">
                                     <div className="pb-3 text-portblue text-[7vw] md:text-5xl font-semibold">
                                           <div>About me</div>
@@ -130,7 +130,7 @@ function BodyTwo() {
                                                       </span>{" "}
                                                 </p>
                                           </div>
-                                          <div className="pb-5 w-[160%] sm:w-[100%]">
+                                          <div className="pb-2 w-[160%] sm:w-[100%]">
                                                 <p>
                                                       Some of the{" "}
                                                       <span className="font-semibold text-portblue">

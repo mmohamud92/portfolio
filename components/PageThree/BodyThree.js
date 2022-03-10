@@ -5,7 +5,7 @@ import ProjectFour from "./Projects/ProjectFour";
 
 function BodyThree() {
       return (
-            <div className="flex justify-center h-auto overflow-hidden">
+            <div className="flex justify-center h-auto overflow-hidden md:pt-0 pt-20">
                   <div className="flex justify-center w-10/12 ">
                         <div className="flex flex-col items-center content-center w-auto md:pt-24">
                               <div>
