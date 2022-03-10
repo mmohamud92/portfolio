@@ -53,7 +53,7 @@ function LayOut({ Body }) {
                                                 to="about"
                                                 spy={true}
                                                 smooth={true}
-                                                offset={-20}
+                                                offset={-65}
                                                 duration={500}
                                           >
                                                 About
@@ -129,7 +129,7 @@ function LayOut({ Body }) {
                                     to="projects"
                                     spy={true}
                                     smooth={true}
-                                    offset={-230}
+                                    offset={-50}
                                     duration={500}
                                     className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue"
                               >

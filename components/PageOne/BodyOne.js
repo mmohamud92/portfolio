@@ -19,7 +19,7 @@ function BodyOne() {
                                                 <span className=" text-portblue">
                                                       {""} full stack {""}
                                                 </span>
-                                                developer.
+                                                developer
                                           </h2>
                                           <p className="pt-5 md:text-2xl text-portblack text-[3.75vw] md:w-12/12 ">
                                                 A developer hoping to make tech
