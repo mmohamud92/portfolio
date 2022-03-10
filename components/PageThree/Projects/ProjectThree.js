@@ -6,7 +6,7 @@ import Portfolio from "../../../images/projects/Portfolio.png";
 
 function ProjectThree() {
       return (
-            <div className="lg:pt-16 flex justify-center pt-[2vh] ">
+            <div className="lg:pt-16 flex justify-center pt-[2vh] text-justify">
                   <Project
                         image={Portfolio}
                         text=<div className="text-portwhite font-bold lg:font-normal">

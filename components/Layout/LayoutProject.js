@@ -156,26 +156,26 @@ function LayOutProject({ Body }) {
                   <div className=" bg-portwhite">
                         <div className="h-auto overflow-hidden">
                               <div className="hidden md:fixed md:left-0 md:flex md:flex-col md:justify-end md:w-1/12 md:h-auto md:overflow-hidden md:visible"></div>
-                              <div className="hidden md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-auto md:overflow-hidden md:visible">
+                              <div className="hidden md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-screen md:overflow-hidden md:visible">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
-                                          icon={<FaGithub size="20" />}
+                                          icon={<FaGithub size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://mohamedmohamud.hashnode.dev/"
-                                          icon={<SiHashnode size="20" />}
+                                          icon={<SiHashnode size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://twitter.com/codewithmohamed"
-                                          icon={<FaTwitter size="20" />}
+                                          icon={<FaTwitter size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://www.instagram.com/codewithmohamed/"
-                                          icon={<AiFillInstagram size="21" />}
+                                          icon={<FaInstagram size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://www.linkedin.com/in/mohamed-mohamud-"
-                                          icon={<FaLinkedinIn size="20" />}
+                                          icon={<FaLinkedinIn size="23" />}
                                     />
                                     <a
                                           href="https://www.youtube.com/c/codewithmohamed"
@@ -183,12 +183,7 @@ function LayOutProject({ Body }) {
                                           target="_blank"
                                           rel="noreferrer"
                                     >
-                                          {
-                                                <FaYoutube
-                                                      size="20"
-                                                      className=" hover:"
-                                                />
-                                          }
+                                          {<FaYoutube size="23" />}
                                     </a>
                               </div>
                               <div className="flex content-center justify-center ">
