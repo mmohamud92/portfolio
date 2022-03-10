@@ -53,7 +53,7 @@ function LayOut({ Body }) {
                                                 to="about"
                                                 spy={true}
                                                 smooth={true}
-                                                offset={15}
+                                                offset={-20}
                                                 duration={500}
                                           >
                                                 About
@@ -63,7 +63,7 @@ function LayOut({ Body }) {
                                                 to="projects"
                                                 spy={true}
                                                 smooth={true}
-                                                offset={15}
+                                                offset={-20}
                                                 duration={500}
                                           >
                                                 Projects

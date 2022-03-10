@@ -21,7 +21,7 @@ function BodyTwo() {
                                           <div>About me</div>
                                     </div>
                                     <div className="pb-8 border-t-4 w-[35vw] md:w-60 border-portblue"></div>
-                                    <div className="w-9/12  text-portblack md:text-[1.075rem] sm:text-[2.1vw] text-[2.6vw] text-justify">
+                                    <div className="w-9/12  text-portblack md:text-[0.984rem] sm:text-[1.96vw] text-[2.2vw] text-justify">
                                           <div className="pb-5 ">
                                                 <p>
                                                       {" "}

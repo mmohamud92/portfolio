@@ -11,7 +11,7 @@ import BookWorms from "../../../images/projects/BookWorms.png";
 
 function ProjectOne() {
       return (
-            <div className="lg:pt-16 flex justify-center pt-[0.5vh] ">
+            <div className="lg:pt-16 flex justify-center pt-[0.5vh] text-justify">
                   <Project
                         href={"https://bookwormsreading.netlify.app/"}
                         image={BookWorms}

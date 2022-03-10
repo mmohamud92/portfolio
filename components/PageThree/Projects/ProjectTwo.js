@@ -6,7 +6,7 @@ import SOCDashboard from "../../../images/projects/SOCDashboard.png";
 
 function ProjectTwo() {
       return (
-            <div className="lg:pt-16 flex justify-center pt-[2vh] ">
+            <div className="lg:pt-16 flex justify-center pt-[2vh] text-justify">
                   <ProjectFlipped
                         href={"https://gracious-wescoff-9aa876.netlify.app/"}
                         image={SOCDashboard}
@@ -22,10 +22,9 @@ function ProjectTwo() {
                                     section where bootcampers can inform others
                                     of what they're studying, when and how to
                                     study with them to promote pair programming!
-                                    [1-week Group Project]
                               </div>
                               <div className="text-portwhite font-bold lg:font-normal">
-                                    [4-week Group Project]
+                                    [1-week Group Project]
                               </div>
                         </div>
                         techStack=<div className="flex justify-between  lg:w-[28.333333333333332vw]">

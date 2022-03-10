@@ -12,7 +12,7 @@ const ProjectFlipped = ({ icon, techStack, text, image, href }) => {
                                           rel="noreferrer"
                                     >
                                           <div className=" flex justify-center items-center w-[68vw] lg:w-[31vw] lg:h-[39.47479224376731vh] ">
-                                                <div className=" absolute z-10 text-justify lg:hidden text-[1.8vw] w-[40vw] hover:hidden ">
+                                                <div className=" absolute z-10 text-justify lg:hidden text-[1.8vw] w-[45vw] hover:hidden ">
                                                       {text}
                                                 </div>
                                                 <div className=" flex">
