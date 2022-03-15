@@ -11,12 +11,12 @@ import BookWorms from "../../../images/projects/BookWorms.png";
 
 function ProjectOne() {
       return (
-            <div className="lg:pt-16 flex justify-center pt-[0.5vh] ">
+            <div className="lg:pt-16 flex justify-center pt-[0.5vh] text-justify">
                   <Project
-                        href={"https://bookwormsreading.netlify.app/"}
+                        href={"https://bookwormspreview.netlify.app/"}
                         image={BookWorms}
                         text=<div>
-                              <div className="text-portwhite font-bold lg:font-normal">
+                              <div className="font-bold text-portwhite lg:font-normal">
                                     A modern solution to an age-old problem.
                                     Book Worms allows teachers to be able to
                                     digitally monitor students' reading habits.
@@ -25,7 +25,7 @@ function ProjectOne() {
                                     much they've read and also leave a comment
                                     on their most recent reading.
                               </div>
-                              <div className="text-portwhite font-bold lg:font-normal">
+                              <div className="font-bold text-portwhite lg:font-normal">
                                     [4-week Group Project]
                               </div>
                         </div>
