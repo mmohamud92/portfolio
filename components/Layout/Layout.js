@@ -53,7 +53,7 @@ function LayOut({ Body }) {
                                                 to="about"
                                                 spy={true}
                                                 smooth={true}
-                                                offset={15}
+                                                offset={-65}
                                                 duration={500}
                                           >
                                                 About
@@ -63,7 +63,7 @@ function LayOut({ Body }) {
                                                 to="projects"
                                                 spy={true}
                                                 smooth={true}
-                                                offset={15}
+                                                offset={-20}
                                                 duration={500}
                                           >
                                                 Projects
@@ -119,7 +119,7 @@ function LayOut({ Body }) {
                                     to="about"
                                     spy={true}
                                     smooth={true}
-                                    offset={-110}
+                                    offset={-75}
                                     duration={500}
                                     className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue "
                               >
@@ -129,7 +129,7 @@ function LayOut({ Body }) {
                                     to="projects"
                                     spy={true}
                                     smooth={true}
-                                    offset={-230}
+                                    offset={-50}
                                     duration={500}
                                     className="block px-4 py-2 text-sm font-bold duration-500 transform cursor-pointer text-portblack hover:bg-darkerblueme hover:text-portblue"
                               >
@@ -161,23 +161,23 @@ function LayOut({ Body }) {
                               <div className="hidden md:fixed md:right-0 md:flex md:flex-col md:items-center md:justify-end md:w-1/12 md:h-screen md:overflow-hidden md:visible">
                                     <SideBarIcon
                                           href="https://github.com/codewithmohamed"
-                                          icon={<FaGithub size="20" />}
+                                          icon={<FaGithub size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://mohamedmohamud.hashnode.dev/"
-                                          icon={<SiHashnode size="20" />}
+                                          icon={<SiHashnode size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://twitter.com/codewithmohamed"
-                                          icon={<FaTwitter size="20" />}
+                                          icon={<FaTwitter size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://www.instagram.com/codewithmohamed/"
-                                          icon={<FaInstagram size="20" />}
+                                          icon={<FaInstagram size="23" />}
                                     />
                                     <SideBarIcon
                                           href="https://www.linkedin.com/in/mohamed-mohamud-"
-                                          icon={<FaLinkedinIn size="20" />}
+                                          icon={<FaLinkedinIn size="23" />}
                                     />
                                     <a
                                           href="https://www.youtube.com/c/codewithmohamed"
@@ -185,12 +185,7 @@ function LayOut({ Body }) {
                                           target="_blank"
                                           rel="noreferrer"
                                     >
-                                          {
-                                                <FaYoutube
-                                                      size="20"
-                                                      className=" hover:"
-                                                />
-                                          }
+                                          {<FaYoutube size="23" />}
                                     </a>
                               </div>
                               <div className="flex justify-center ">

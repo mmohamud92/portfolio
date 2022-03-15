@@ -10,7 +10,7 @@ function BodyFour() {
                                           </div>
                                           <div className="pb-8 border-t-4 w-[35vw] md:w-[20vw] border-portblue"></div>
                                           <div className="w-[70%]">
-                                                <div className="pb-5 md:text-2xl text-portblack text-[4.5vw] text-center">
+                                                <div className="pb-28 md:pb-20 md:text-2xl text-portblack text-[3vw] text-justify md:text-center">
                                                       <p>
                                                             I'm currently
                                                             looking for new{" "}

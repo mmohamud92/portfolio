@@ -43,7 +43,7 @@ function ProjectFour() {
             //       />
             // </div>
 
-            <div className="lg:pt-16 flex justify-center pt-[2vh] ">
+            <div className="lg:pt-16 flex justify-center pt-[2vh] text-justify">
                   <ProjectFlipped
                         href={
                               "https://codepen.io/codingmohamed/project/full/ZgvBnr"
